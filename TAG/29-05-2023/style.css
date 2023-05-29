@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  padding: 12px;
+  width: 200px;
+  height: 260px;
+  border-radius: 12px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: all 0.35s;
+}
+
+/* .card:active {
+  background-color: lightseagreen;
+  color: white;
+} */
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: transparent;
+  border: 0;
+  color: red;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.35;
+}
