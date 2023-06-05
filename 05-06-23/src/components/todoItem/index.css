@@ -1,0 +1,22 @@
+.TodoItem {
+  padding: 0 12px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.35s;
+}
+
+.TodoItem:active {
+  background-color: lightseagreen;
+  color: white;
+}
+
+.completed {
+  background-color: tomato;
+  color: white;
+}
