@@ -1,0 +1,19 @@
+.LoginInfo {
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 22px;
+  border-radius: 12px;
+  background-color: #ececec;
+}
+
+.LoginInfo p {
+  color: rgb(101, 101, 101);
+}
+
+@media (min-width: 1024px) {
+  .LoginInfo {
+    width: 50%;
+  }
+}
