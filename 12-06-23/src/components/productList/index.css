@@ -1,0 +1,14 @@
+.ProductList {
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductList__title {
+  margin-left: 40px;
+}
+
+.ProductList__container {
+  display: flex;
+  gap: 12px;
+  overflow-x: scroll;
+}
