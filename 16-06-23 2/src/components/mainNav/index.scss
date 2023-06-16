@@ -1,0 +1,43 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+
+.MainNav {
+  @include flex-container(column, center, center);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 80px;
+  width: 100vw;
+  background-color: $white;
+  color: $gray;
+  border: 1px solid $white;
+
+  .MainNav__list {
+    @include flex-container(row, space-evenly, center);
+    width: 100%;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  .MainNav__list--item {
+    @include flex-container(column, center, center);
+    cursor: pointer;
+  }
+
+  .MainNav__list--item:hover {
+    color: $primary-color;
+  }
+
+  .MainNav__list--item {
+    img {
+      width: 20px;
+    }
+  }
+
+  .MainNav__list--item {
+    p {
+      margin: 4px 0;
+      font-size: 0.9rem;
+    }
+  }
+}

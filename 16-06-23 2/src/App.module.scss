@@ -1,0 +1,21 @@
+@import "./styles/mixins.scss";
+
+.App {
+  margin: 0 6px;
+
+  .title {
+    color: red;
+  }
+}
+
+.Favourite {
+  .wrapper {
+    @include flex-container(row, flex-start, center, 20px, wrap);
+  }
+}
+
+@media (min-width: 1024px) {
+  .App {
+    margin: 0 14%;
+  }
+}
