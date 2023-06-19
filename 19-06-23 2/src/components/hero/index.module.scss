@@ -1,0 +1,30 @@
+.hero {
+  .heading {
+    position: relative;
+
+    .heroImage {
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .heroTitle {
+      position: absolute;
+      top: calc(50% - 25px);
+      left: calc(50% - 110px);
+      width: 220px;
+      margin: 0;
+      height: 50px;
+      padding: 6px;
+      border-radius: 12px;
+      color: white;
+    }
+  }
+  .content {
+    margin: 0 36px;
+
+    p {
+      height: 540px;
+      overflow-y: scroll;
+    }
+  }
+}
