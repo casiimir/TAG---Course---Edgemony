@@ -1,0 +1,15 @@
+@import "../../styles/mixins.scss";
+
+.ProductList {
+  @include flex-container(row);
+
+  .ProductList__title {
+    margin-left: 40px;
+  }
+
+  .ProductList__container {
+    display: flex;
+    gap: 12px;
+    overflow-x: scroll;
+  }
+}
