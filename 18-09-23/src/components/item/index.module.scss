@@ -1,0 +1,9 @@
+.Item {
+  padding: 12px 6px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+  &:hover {
+    background-color: lightsalmon;
+    cursor: pointer;
+  }
+}
