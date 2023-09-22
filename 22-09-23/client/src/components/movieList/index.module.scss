@@ -1,0 +1,42 @@
+.MovieList {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  .list {
+    display: flex;
+    gap: 20px;
+    padding: 12px 24px;
+    height: 600px;
+    overflow-x: scroll;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    button {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+  }
+  form {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    input[type="text"] {
+      width: 200px;
+      padding: 6px;
+      border-radius: 6px;
+      border: 0;
+    }
+
+    input[type="submit"] {
+      width: 100px;
+      cursor: pointer;
+    }
+  }
+}

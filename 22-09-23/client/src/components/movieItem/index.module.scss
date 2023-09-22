@@ -1,0 +1,25 @@
+.MovieItem {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: 600px;
+  box-sizing: content-box;
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+
+  img {
+    width: 260px;
+    object-fit: cover;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 6px 12px;
+  }
+
+  &:hover {
+    box-shadow: 0 0 4px rgba(255, 208, 0, 0.986);
+  }
+}
