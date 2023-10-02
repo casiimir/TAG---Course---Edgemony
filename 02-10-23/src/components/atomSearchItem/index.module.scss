@@ -1,0 +1,24 @@
+.AtomSearchItem {
+  display: flex;
+  flex-direction: column;
+
+  b {
+    cursor: pointer;
+  }
+
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .generic {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    p {
+      font-size: 0.9rem;
+      color: #77797a;
+    }
+  }
+}
