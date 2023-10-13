@@ -1,0 +1,14 @@
+.MainSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 12px 24px;
+  background-color: #f2f2ef;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+  }
+}

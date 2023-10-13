@@ -1,0 +1,42 @@
+.OrdersStatus {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  .item {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    padding: 6px 12px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background 0.35s;
+
+    &:hover {
+      border: 1px solid #017775;
+    }
+
+    .content {
+    }
+
+    .image {
+      padding: 6px;
+
+      img {
+        width: 50px;
+        background-color: white;
+        border-radius: 16px;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.35);
+      }
+    }
+  }
+
+  .active {
+    background-color: #017775;
+    color: white;
+  }
+}
